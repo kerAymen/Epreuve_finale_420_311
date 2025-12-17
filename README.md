@@ -58,9 +58,9 @@ mvn clean package
 L’application attend deux arguments :
 1. le chemin du fichier de scénario (entrée),
 2. le chemin du fichier de sortie (logs).
-
+```bash
 mvn exec:java -Dexec.args="data/scenario_1.txt data/sortie_1.txt"
-
+```
 
 
 ## 7. Fonctionnalités principales
@@ -70,5 +70,5 @@ Gestion des commandes et de leurs états
 Utilisation de structures de données adaptées
 Gestion du temps simulé via la méthode
 Utilisation de synchronized, wait() et notifyAll() pour le thread du cuisinier
-Calcul et affichage des statistiques finales
+Calcul et affichage des statistiques finales.
 
