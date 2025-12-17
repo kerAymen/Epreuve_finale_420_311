@@ -1,4 +1,4 @@
-Simulation de restaurant 
+### Simulation de restaurant 
 
 Ce projet est une application Java en mode console qui simule le service dans un petit restaurant lors d’un rush de midi. Ce projet est une application Java qui simule le service d'un petit restaurant lors d’un rush de midi.  
 
