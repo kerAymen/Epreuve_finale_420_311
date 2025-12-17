@@ -5,8 +5,8 @@
 [🚪 t=0] 🧍 Client #1 "Alice" (pat=5)
 [📥 t=0] Cmd #1 (Alice) → 🍕
 ⏩ AVANCER_TEMPS;1
-[t=1] 👥1 😋0 😡0 📥1 🍳0
 [🍳 t=1] Cmd #1 commence (3 min)
+[t=1] 👥1 😋0 😡0 📥1 🍳0
     #1 Alice 🙂 (pat=4, 🍕)
 ⏩ AVANCER_TEMPS;3
 [✅ t=3] Cmd #1 terminée → Alice 😋

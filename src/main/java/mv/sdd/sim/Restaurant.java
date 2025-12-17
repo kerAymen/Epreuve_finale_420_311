@@ -289,7 +289,6 @@ public class Restaurant {
     //  qui permet de diminuer la patience des clients (appelée par tick())
     private void diminuerPatienceClients() {
         for (Client client : clients.values()) {
-
             if (client.getEtat() == EtatClient.EN_ATTENTE) {
 
                 Commande commande = client.getCommande();
