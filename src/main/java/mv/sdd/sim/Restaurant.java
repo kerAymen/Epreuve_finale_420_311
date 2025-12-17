@@ -43,7 +43,6 @@ public class Restaurant {
     // TODO : implémenter les méthodes suivantes
     // Méthode appelée depuis App pour chaque action
     public void executerAction(Action action){
-        // Votre code ici.
         ActionType type = action.getType();
 
         if (type == ActionType.DEMARRER_SERVICE) {
@@ -89,7 +88,6 @@ public class Restaurant {
     }
 
     public void demarrerService(int dureeMax, int nbCuisiniers) {
-        // Votre code ici.
         serviceActif = true;
         this.dureeMaxService = dureeMax;
         this.nbCuisiniers = nbCuisiniers;
@@ -116,7 +114,6 @@ public class Restaurant {
     }
 
     public synchronized void arreterService(){
-        // Votre code ici.
         serviceActif = false;
 
         if (cuisinier != null) {
@@ -322,7 +319,6 @@ public class Restaurant {
 
     public synchronized void demarrerPreparations() {
         boolean attendre = true;
-
         while (attendre) {
 
             if (serviceActif == false) {
